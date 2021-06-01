@@ -14,7 +14,7 @@ class Main {
     int simNao, podeDoar, naoPodeDoar, adolescente=0;
 
     for(int i=0; i<10; i++){
-      System.out.println("Informe a idade do candidado à doação: ");idade = sc.nextInt();
+      System.out.println("Informe a idade do candidato à doação: ");idade = sc.nextInt();
 
       if(idade<16 || idade >69){
         doadorMenorIdoso++;
