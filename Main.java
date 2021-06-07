@@ -14,12 +14,12 @@ class Main {
     int simNao, podeDoar, naoPodeDoar, adolescente=0;
 
     for(int i=0; i<10; i++){
-      System.out.println("Informe a idade do candidato à doação: ");idade = sc.nextInt();
+      System.out.print("Informe a idade do candidato à doação: ");idade = sc.nextInt();
 
       if(idade<16 || idade >69){
         doadorMenorIdoso++;
       }else if(idade>=16 && idade <= 17){
-        System.out.println("Está acompanhado de pais ou responsável? Digite [1 - SIM] ou [2 - NÃO]");
+        System.out.print("Está acompanhado de pais ou responsável? Digite [1 - SIM] ou [2 - NÃO]");
         simNao = sc.nextInt();
         if(simNao==1){
           doadorAdolescente++;
